@@ -44,10 +44,10 @@ cd snake-game</code></pre>
       <th>Gameplay</th>
       <th>Game Over</th>
     </tr>
-    <tr>
+    <tr></tr>
       <td><img src="https://github.com/Sujithramesh2005/snake-game/blob/main/snake.jpg.png" alt="Gameplay"></td>
      
-    </tr
+    
   </table>
 
   <h2>📁 Project Structure</h2>
