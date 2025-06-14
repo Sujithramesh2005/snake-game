@@ -1,6 +1,5 @@
 
- <!DOCTYPE html>
-<html lang="en">
+ 
 <body>
 
   <h1>🐍 Snake Game</h1>
@@ -46,9 +45,9 @@ cd snake-game</code></pre>
       <th>Game Over</th>
     </tr>
     <tr>
-      <td><img src="https://user-images.githubusercontent.com/your-image-link1.png" alt="Gameplay"></td>
-      <td><img src="https://user-images.githubusercontent.com/your-image-link2.png" alt="Game Over"></td>
-    </tr>
+      <td><img src="https://github.com/Sujithramesh2005/snake-game/blob/main/snake.jpg.png" alt="Gameplay"></td>
+     
+    </tr
   </table>
 
   <h2>📁 Project Structure</h2>
