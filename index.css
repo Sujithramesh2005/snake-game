@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background: linear-gradient(270deg, rgb(5, 5, 236), rgb(238, 70, 4), rgb(234, 34, 230), yellow);
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+  animation: gradientShift 10s ease infinite;
+  
+
+#game {
+  display: grid;
+  grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+  width: 400px;
+  height: 400px;
+  border: 2px solid #4caf50;
+  background: #000;
+  position: relative;
+}
+
+.snake, .food {
+  border-radius: 3px;
+  transition: all 0.1s;
+}
+
+.snake { background: #4caf50; }
+
+.head { 
+  background: #66bb6a; 
+  transform: scale(1.1); 
+  z-index: 2; 
+}
+
+.food {
+  background: #f44336;
+  animation: pulse 0.5s infinite alternate;
+  border-radius: 50%;
+}
+
+@keyframes pulse {
+  from { transform: scale(0.8); }
+  to { transform: scale(1.2); }
+}
+
+#over {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 5;
+}
+
+#over.show { display: flex; }
+
+button {
+  margin-top: 1em;
+  padding: 10px 20px;
+  background: #4caf50;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#score { margin-top: 1em; font-size: 1.2rem; }
