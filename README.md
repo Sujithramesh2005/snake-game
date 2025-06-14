@@ -1,11 +1,6 @@
-# snake-game
+
  <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Snake Game - README</title>
-  
-</head>
 <body>
 
   <h1>🐍 Snake Game</h1>
@@ -35,7 +30,7 @@
   <h2>🚀 How to Play</h2>
   <ol>
     <li>Clone this repository:
-      <pre><code>git clone:
+      <pre><code>git clone:https://github.com/Sujithramesh2005/snake-game.git
 cd snake-game</code></pre>
     </li>
     <li>Open <code>index.html</code> in your browser.</li>
@@ -68,14 +63,7 @@ cd snake-game</code></pre>
     👉 <a href="https://Sujithramesh2005.github.io/snake-game/" target="_blank">Play Live on GitHub Pages</a>
   </p>
 
-  <h2>🧠 Concepts Used</h2>
-  <ul>
-    <li>Canvas rendering (if used)</li>
-    <li>Game loop using <code>requestAnimationFrame()</code></li>
-    <li>Event handling for user inputs</li>
-    <li>Collision detection</li>
-    <li>Dynamic DOM manipulation</li>
-  </ul>
+ 
 
   <h2>🤝 Contributing</h2>
   <p>
@@ -83,8 +71,7 @@ cd snake-game</code></pre>
     Bug fixes, new features, and performance optimizations are welcome.
   </p>
 
-  <h2>📜 License</h2>
-  <p>This project is open-source under the <a href="#">MIT License</a>.</p>
+  
 
   <h2>🙌 Acknowledgments</h2>
   <ul>
