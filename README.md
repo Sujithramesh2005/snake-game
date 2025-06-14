@@ -4,36 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Snake Game - README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 30px;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    code {
-      background-color: #eee;
-      padding: 2px 4px;
-      border-radius: 4px;
-    }
-    pre {
-      background-color: #eee;
-      padding: 10px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    .screenshot-table img {
-      max-height: 200px;
-    }
-  </style>
+  
 </head>
 <body>
 
@@ -64,7 +35,7 @@
   <h2>🚀 How to Play</h2>
   <ol>
     <li>Clone this repository:
-      <pre><code>git clone 
+      <pre><code>git clone:
 cd snake-game</code></pre>
     </li>
     <li>Open <code>index.html</code> in your browser.</li>
